@@ -22,6 +22,7 @@ grey: #9e9e9e
 ∆ Header
 ∆ Home
 ∆ Footer
+∆ Media Queries
 
 ----------------------------------------------------------------------------------------------------*/
 
@@ -137,7 +138,7 @@ nav a {
 	font-weight: 500;
 }
 
-.cta img {
+#banner .cta img {
 	margin-bottom: 20px;
 	max-width: 100%;
 }
@@ -199,4 +200,34 @@ footer p{
     font-weight: normal;
     font-style: normal;
 }
+
+
+/* ---------------------------------------------------------------------------------------------------
+		∆ Media Queries
+---------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+
+	/* ---------Header ---------*/
+
+	header{ text-align: center; }
+
+	/* --------- Footer ---------*/
+
+	footer p{ padding-top: 10px; }
+}
+
+@media only screen and (max-width: 478px) {
+
+	/* --------- Footer ---------*/
+
+	footer ul li{ float: none; margin-bottom: 15px; }
+
+}
+
+
+
+
+
+
 
