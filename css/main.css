@@ -165,14 +165,12 @@ footer ul a{
 }
 
 footer li a:hover{
- 	/*border-bottom: 1px solid #1a1a1a;*/
  	color: #fcd614;
  }
 
 footer p{
 	clear: both;
 	color: #eeeeee;
-	/*text-align: center;*/
 }
 
 /* ---------------------------------------------------------------------------------------------------
