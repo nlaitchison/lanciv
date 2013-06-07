@@ -206,11 +206,16 @@ footer p{
 		∆ Media Queries
 ---------------------------------------------------------------------------------------------------*/
 
+
 @media only screen and (max-width: 767px) {
 
 	/* ---------Header ---------*/
 
 	header{ text-align: center; }
+
+	/* --------- Home ---------*/
+
+	#banner .cta { padding: 30px 0;}
 
 	/* --------- Footer ---------*/
 
